@@ -8,8 +8,8 @@
   margin-right: 5px;
 }
 .circle {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   position: relative;
 }
@@ -31,6 +31,7 @@
 
 .circle.half-filled {
   background-color: lightgreen;
+  overflow:hidden;
 }
 
 .circle.half-filled::before {

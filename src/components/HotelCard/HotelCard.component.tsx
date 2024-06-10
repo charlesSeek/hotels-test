@@ -2,20 +2,7 @@ import React from 'react';
 import Rating from '../Rating';
 import PriceBlock from '../PriceBlock';
 import './HotelCard.css';
-
-export type HotelProps = {
-  imageUrl: string;
-  promotionTitle: string;
-  title: string;
-  address: string;
-  name: string;
-  canCancellation: boolean;
-  rateType: 'self' | 'star';
-  rateValue: number;
-  currency: string;
-  amount: number;
-  saving: number | null;
-}
+import { HotelProps } from '../../types';
 
 const HotelCard: React.FC<HotelProps> = ({
   imageUrl,

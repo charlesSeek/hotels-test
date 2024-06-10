@@ -4,6 +4,7 @@ import HotelCard from './HotelCard.component';
 
 describe('HotelCard Component', () => {
   const hotelCardProps = {
+    id: 'cxd650nuyo',
     imageUrl: 'https://unsplash.it/145/125/?random',
     promotionTitle: 'Exclusive Deal',
     title: 'Courtyard by Marriott Sydney-North Ryde',

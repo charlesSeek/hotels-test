@@ -36,13 +36,28 @@ interface Offer {
   name: string;
   displayPrice: Price;
   savings: Price | null;
-  cancellationOptions: CancellationOption;
+  cancellationOption: CancellationOption;
 }
 
 interface HotelData {
   id: string;
   property: Property;
   offer: Offer;
+}
+
+type HotelProps = {
+  id: string;
+  imageUrl: string;
+  promotionTitle: string;
+  title: string;
+  address: string;
+  name: string;
+  canCancellation: boolean;
+  rateType: 'self' | 'star';
+  rateValue: number;
+  currency: string;
+  amount: number;
+  saving: number | null;
 }
 
 export type {
@@ -53,5 +68,6 @@ export type {
   Offer,
   Price,
   CancellationOption,
-  HotelData
+  HotelData,
+  HotelProps
 }
