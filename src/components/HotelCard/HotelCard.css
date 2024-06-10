@@ -1,0 +1,95 @@
+.hotel-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid lightgrey;
+  padding-top: 20px;
+}
+
+.hotel-image {
+  position: relative;
+  margin-right: 20px;
+}
+
+.hotel-image img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.promo-title {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background-color: white;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.hotel-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* .hotel-title h2 {
+  padding: 0px;
+  margin: 0px;
+} */
+
+.hotel-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hotel-details h2 {
+  padding: 0px;
+  margin: 0px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hotel-details p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.hotel-details span {
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.room-type {
+  color: red;
+  font-size: 12px;
+}
+
+.free-cancellation {
+  color: green;
+}
+
+.price-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}

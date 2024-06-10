@@ -13,7 +13,7 @@ const PriceBlock: React.FC<PriceBlockProps> = ({
   saving,
 }) => {
   return (
-    <div className='price-block' data-testid='price-component'>
+    <div className='price-block-component' data-testid='price-component'>
       <div className='price-title'>
         1 night total ({currency})
       </div>
