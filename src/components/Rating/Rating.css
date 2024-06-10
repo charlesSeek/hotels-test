@@ -1,0 +1,44 @@
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating .star,
+.rating .circle {
+  margin-right: 5px;
+}
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.star.active {
+  color: gold;
+}
+.circle.active {
+  background-color: gold
+}
+
+.star.empty {
+  color: lightgrey;
+}
+
+.circle.empty {
+  background-color: lightgrey;
+}
+
+.circle.half-filled {
+  background-color: lightgreen;
+}
+
+.circle.half-filled::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: gold;
+  top: 0;
+  left:0;
+}
