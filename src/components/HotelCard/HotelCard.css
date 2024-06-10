@@ -49,11 +49,6 @@
   align-items: flex-start;
 }
 
-/* .hotel-title h2 {
-  padding: 0px;
-  margin: 0px;
-} */
-
 .hotel-details {
   display: flex;
   flex-direction: column;
@@ -93,4 +88,36 @@
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hotel-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .hotel-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .hotel-title {
+    display: flex;
+    flex-direction: column;
+  }
+  .block {
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+  }
+  .hotel-title h2 {
+    margin-bottom: 10px;
+  }
+  .heading span {
+    margin-top: 10px;
+  }
+  .hotel-details u {
+    margin-top: 10px;
+  }
 }

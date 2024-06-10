@@ -35,3 +35,12 @@
   font-size: 18px;
   color: red;
 }
+
+@media only screen and (max-width: 768px) {
+  .price-block-component {
+    text-align: left;
+  }
+  .price-amount {
+    justify-content: flex-start;
+  }
+}
